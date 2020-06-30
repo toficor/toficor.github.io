@@ -1,0 +1,1 @@
+NDSummary.OnToolTipsLoaded("File:vote/repository/VariantRepository.java",{6:"<div class=\"NDToolTip TClass LJava\"><div class=\"TTSummary\">Reprezentuje repozytorium wariantu.</div></div>"});

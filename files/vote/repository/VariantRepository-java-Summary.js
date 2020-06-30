@@ -1,0 +1,1 @@
+NDFramePage.OnPageTitleLoaded("File:vote/repository/VariantRepository.java","VariantRepository.java");NDSummary.OnSummaryLoaded("File:vote/repository/VariantRepository.java",[["Java","Java"]],[["Classes","Class"]],[[6,0,0,"Repozytorium wariantu","Repozytorium_wariantu"]]);

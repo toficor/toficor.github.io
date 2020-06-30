@@ -1,0 +1,1 @@
+NDFramePage.OnPageTitleLoaded("JavaClass:Wariant","Wariant");NDSummary.OnSummaryLoaded("JavaClass:Wariant",[["Java","Java"]],[["Classes","Class"]],[[1,0,0,"Wariant"]]);

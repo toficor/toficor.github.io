@@ -1,0 +1,1 @@
+NDFramePage.OnPageTitleLoaded("File:vote/service/VariantService.java","VariantService.java");NDSummary.OnSummaryLoaded("File:vote/service/VariantService.java",[["Java","Java"]],[["Classes","Class"]],[[36,0,0,"VariantService","VariantService"]]);

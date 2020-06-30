@@ -1,0 +1,1 @@
+NDSummary.OnToolTipsLoaded("File:vote/model/User.java",{3:"<div class=\"NDToolTip TClass LJava\"><div class=\"TTSummary\">Reprezentuje użytkowników</div></div>"});

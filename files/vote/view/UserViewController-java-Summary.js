@@ -1,0 +1,1 @@
+NDFramePage.OnPageTitleLoaded("File:vote/view/UserViewController.java","UserViewController.java");NDSummary.OnSummaryLoaded("File:vote/view/UserViewController.java",[["Java","Java"]],[["Classes","Class"]],[[43,0,0,"UserViewController","UserViewController"]]);

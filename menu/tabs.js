@@ -1,0 +1,1 @@
+NDMenu.OnTabsLoaded([["File","Files","File:vote/","files.js"],["Class","Classes","JavaClass:","classes.js"]]);

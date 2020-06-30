@@ -1,0 +1,1 @@
+NDFramePage.OnPageTitleLoaded("JavaClass:SurveyDataInvalid","SurveyDataInvalid");NDSummary.OnSummaryLoaded("JavaClass:SurveyDataInvalid",[["Java","Java"]],[["Classes","Class"]],[[27,0,0,"SurveyDataInvalid"]]);

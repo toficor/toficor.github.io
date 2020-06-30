@@ -1,0 +1,1 @@
+NDSummary.OnToolTipsLoaded("JavaClass:Wariant",{1:"<div class=\"NDToolTip TClass LJava\"><div class=\"TTSummary\">Reprezentuje warianty Do jednego pytania może być przypisane wiele wariantów</div></div>"});

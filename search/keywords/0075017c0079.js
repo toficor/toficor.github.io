@@ -1,0 +1,1 @@
+NDSearch.OnPrefixDataLoaded("uży",["Class"],[["Użytkownik",,[[,,,,0,"File:vote/model/User.java:Użytkownik","JavaClass:Użytkownik"]]],["użytkownika",,[[,"Repozytorium użytkownika",,,0,"File:vote/repository/UserRepository.java:Repozytorium_użytkownika","JavaClass:Repozytorium_użytkownika"]]]]);

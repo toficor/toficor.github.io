@@ -1,0 +1,1 @@
+NDSearch.OnPrefixDataLoaded("loa",["Function"],[["loadUserByUsername",,[["CustomUserDetailsService",,,,0,"File:vote/config/CustomUserDetailsService.java:CustomUserDetailsService.loadUserByUsername","JavaClass:CustomUserDetailsService:loadUserByUsername"]]]]);

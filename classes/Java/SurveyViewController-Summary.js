@@ -1,0 +1,1 @@
+NDFramePage.OnPageTitleLoaded("JavaClass:SurveyViewController","SurveyViewController");NDSummary.OnSummaryLoaded("JavaClass:SurveyViewController",[["Java","Java"]],[["Classes","Class"]],[[42,0,0,"SurveyViewController"]]);

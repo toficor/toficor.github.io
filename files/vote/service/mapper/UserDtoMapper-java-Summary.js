@@ -1,0 +1,1 @@
+NDFramePage.OnPageTitleLoaded("File:vote/service/mapper/UserDtoMapper.java","UserDtoMapper.java");NDSummary.OnSummaryLoaded("File:vote/service/mapper/UserDtoMapper.java",[["Java","Java"]],[["Classes","Class"]],[[33,0,0,"UserDtoMapper","UserDtoMapper"]]);

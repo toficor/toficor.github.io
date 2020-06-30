@@ -1,0 +1,1 @@
+NDFramePage.OnPageTitleLoaded("JavaClass:Repozytorium_ankiety","Repozytorium ankiety");NDSummary.OnSummaryLoaded("JavaClass:Repozytorium_ankiety",[["Java","Java"]],[["Classes","Class"]],[[9,0,0,"Repozytorium ankiety"]]);

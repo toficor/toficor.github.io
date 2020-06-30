@@ -1,0 +1,1 @@
+NDFramePage.OnPageTitleLoaded("JavaClass:Użytkownik","Użytkownik");NDSummary.OnSummaryLoaded("JavaClass:Użytkownik",[["Java","Java"]],[["Classes","Class"]],[[3,0,0,"Użytkownik"]]);

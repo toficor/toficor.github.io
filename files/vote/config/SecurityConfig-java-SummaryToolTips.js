@@ -1,0 +1,1 @@
+NDSummary.OnToolTipsLoaded("File:vote/config/SecurityConfig.java",{5:"<div class=\"NDToolTip TClass LJava\"><div class=\"TTSummary\">Reprezentuje klase służącą do ustawień zabezpieczeń.</div></div>"});

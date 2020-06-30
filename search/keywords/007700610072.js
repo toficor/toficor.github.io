@@ -1,0 +1,1 @@
+NDSearch.OnPrefixDataLoaded("war",["Class"],[["Wariant",,[[,,,,0,"File:vote/model/Variant.java:Wariant","JavaClass:Wariant"]]],["wariantu",,[[,"Repozytorium wariantu",,,0,"File:vote/repository/VariantRepository.java:Repozytorium_wariantu","JavaClass:Repozytorium_wariantu"]]]]);

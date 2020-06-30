@@ -1,0 +1,1 @@
+NDFramePage.OnPageTitleLoaded("File:vote/config/SecurityConfig.java","SecurityConfig.java");NDSummary.OnSummaryLoaded("File:vote/config/SecurityConfig.java",[["Java","Java"]],[["Classes","Class"]],[[5,0,0,"Konfiguracja zabezpieczeń","Konfiguracja_zabezpieczeń"]]);

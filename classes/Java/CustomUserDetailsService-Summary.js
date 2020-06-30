@@ -1,0 +1,1 @@
+NDFramePage.OnPageTitleLoaded("JavaClass:CustomUserDetailsService","CustomUserDetailsService");NDSummary.OnSummaryLoaded("JavaClass:CustomUserDetailsService",[["Java","Java"]],[["Classes","Class"],["Functions","Function"],["Groups","Group"]],[[10,0,0,"CustomUserDetailsService"],[11,0,2,"Functions","Functions"],[12,0,1,"loadUserByUsername","loadUserByUsername"]]);

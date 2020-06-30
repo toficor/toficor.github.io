@@ -1,0 +1,1 @@
+NDFramePage.OnPageTitleLoaded("JavaClass:Konfiguracja_zabezpieczeń","Konfiguracja zabezpieczeń");NDSummary.OnSummaryLoaded("JavaClass:Konfiguracja_zabezpieczeń",[["Java","Java"]],[["Classes","Class"]],[[5,0,0,"Konfiguracja zabezpieczeń"]]);

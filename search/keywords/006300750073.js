@@ -1,0 +1,1 @@
+NDSearch.OnPrefixDataLoaded("cus",["Class"],[["CustomUserDetailsService",,[[,,,,0,"File:vote/config/CustomUserDetailsService.java:CustomUserDetailsService","JavaClass:CustomUserDetailsService"]]]]);

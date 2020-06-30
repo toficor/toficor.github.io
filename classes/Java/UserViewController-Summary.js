@@ -1,0 +1,1 @@
+NDFramePage.OnPageTitleLoaded("JavaClass:UserViewController","UserViewController");NDSummary.OnSummaryLoaded("JavaClass:UserViewController",[["Java","Java"]],[["Classes","Class"]],[[43,0,0,"UserViewController"]]);

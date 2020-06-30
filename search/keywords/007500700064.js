@@ -1,0 +1,1 @@
+NDSearch.OnPrefixDataLoaded("upd",["Class"],[["UpdateUserDto",,[[,,,,0,"File:vote/service/dto/UpdateUserDto.java:UpdateUserDto","JavaClass:UpdateUserDto"]]]]);

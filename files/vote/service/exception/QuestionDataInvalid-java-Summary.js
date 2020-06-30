@@ -1,0 +1,1 @@
+NDFramePage.OnPageTitleLoaded("File:vote/service/exception/QuestionDataInvalid.java","QuestionDataInvalid.java");NDSummary.OnSummaryLoaded("File:vote/service/exception/QuestionDataInvalid.java",[["Java","Java"]],[["Classes","Class"]],[[30,0,0,"QuestionDataInvalid","QuestionDataInvalid"]]);

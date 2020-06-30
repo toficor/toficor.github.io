@@ -1,0 +1,1 @@
+NDFramePage.OnPageTitleLoaded("JavaClass:SurveyDtoMapper","SurveyDtoMapper");NDSummary.OnSummaryLoaded("JavaClass:SurveyDtoMapper",[["Java","Java"]],[["Classes","Class"]],[[35,0,0,"SurveyDtoMapper"]]);

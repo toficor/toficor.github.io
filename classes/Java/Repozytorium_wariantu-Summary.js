@@ -1,0 +1,1 @@
+NDFramePage.OnPageTitleLoaded("JavaClass:Repozytorium_wariantu","Repozytorium wariantu");NDSummary.OnSummaryLoaded("JavaClass:Repozytorium_wariantu",[["Java","Java"]],[["Classes","Class"]],[[6,0,0,"Repozytorium wariantu"]]);

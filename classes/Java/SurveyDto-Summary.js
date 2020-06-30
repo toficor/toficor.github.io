@@ -1,0 +1,1 @@
+NDFramePage.OnPageTitleLoaded("JavaClass:SurveyDto","SurveyDto");NDSummary.OnSummaryLoaded("JavaClass:SurveyDto",[["Java","Java"]],[["Classes","Class"]],[[17,0,0,"SurveyDto"]]);

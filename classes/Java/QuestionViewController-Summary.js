@@ -1,0 +1,1 @@
+NDFramePage.OnPageTitleLoaded("JavaClass:QuestionViewController","QuestionViewController");NDSummary.OnSummaryLoaded("JavaClass:QuestionViewController",[["Java","Java"]],[["Classes","Class"]],[[44,0,0,"QuestionViewController"]]);

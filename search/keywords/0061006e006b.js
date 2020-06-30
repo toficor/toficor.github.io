@@ -1,0 +1,1 @@
+NDSearch.OnPrefixDataLoaded("ank",["Class"],[["Ankieta",,[[,,,,0,"File:vote/model/Survey.java:Ankieta","JavaClass:Ankieta"]]],["ankiety",,[[,"Repozytorium ankiety",,,0,"File:vote/repository/SurveyRepository.java:Repozytorium_ankiety","JavaClass:Repozytorium_ankiety"]]]]);

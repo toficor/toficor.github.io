@@ -1,0 +1,1 @@
+NDFramePage.OnPageTitleLoaded("JavaClass:VariantViewController","VariantViewController");NDSummary.OnSummaryLoaded("JavaClass:VariantViewController",[["Java","Java"]],[["Classes","Class"]],[[41,0,0,"VariantViewController"]]);

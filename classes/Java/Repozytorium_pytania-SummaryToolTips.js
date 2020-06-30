@@ -1,0 +1,1 @@
+NDSummary.OnToolTipsLoaded("JavaClass:Repozytorium_pytania",{8:"<div class=\"NDToolTip TClass LJava\"><div class=\"TTSummary\">Reprezentuje repozytorium pytań.</div></div>"});

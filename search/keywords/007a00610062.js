@@ -1,0 +1,1 @@
+NDSearch.OnPrefixDataLoaded("zab",["Class"],[["zabezpieczeń",,[[,"Konfiguracja zabezpieczeń",,,0,"File:vote/config/SecurityConfig.java:Konfiguracja_zabezpieczeń","JavaClass:Konfiguracja_zabezpieczeń"]]]]);

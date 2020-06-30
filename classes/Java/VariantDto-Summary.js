@@ -1,0 +1,1 @@
+NDFramePage.OnPageTitleLoaded("JavaClass:VariantDto","VariantDto");NDSummary.OnSummaryLoaded("JavaClass:VariantDto",[["Java","Java"]],[["Classes","Class"]],[[13,0,0,"VariantDto"]]);

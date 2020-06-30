@@ -1,0 +1,1 @@
+NDFramePage.OnPageTitleLoaded("JavaClass:SurveyNotFound","SurveyNotFound");NDSummary.OnSummaryLoaded("JavaClass:SurveyNotFound",[["Java","Java"]],[["Classes","Class"]],[[29,0,0,"SurveyNotFound"]]);
