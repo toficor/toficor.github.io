@@ -1,0 +1,1 @@
+NDFramePage.OnPageTitleLoaded("File:vote/repository/AnswerRepository.java","AnswerRepository.java");NDSummary.OnSummaryLoaded("File:vote/repository/AnswerRepository.java",[["Java","Java"]],[["Classes","Class"]],[[20,0,0,"Repozytorium pytania","Repozytorium_pytania"]]);

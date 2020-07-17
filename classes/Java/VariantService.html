@@ -8,10 +8,50 @@
 
 <body onload="NDLoader.OnLoad('Content');" class="NDPage NDContentPage">
 
-<a name="Topic36"></a><div class="CTopic TClass LJava first">
+<a name="Topic47"></a><div class="CTopic TClass LJava first">
  <div class="CTitle">VariantService</div>
- <div class="NDClassPrototype" id="NDClassPrototype36"><div class="CPEntry TClass Current"><div class="CPModifiers">@Service <span class="SHKeyword">public</span></div><div class="CPName">VariantService</div></div></div>
+ <div class="NDClassPrototype" id="NDClassPrototype47"><div class="CPEntry TClass Current"><div class="CPModifiers">@Service <span class="SHKeyword">public</span></div><div class="CPName">VariantService</div></div></div>
  <div class="CBody"><p>Reprezentuje serwis wariantu.</p></div>
+</div>
+
+<a name="Functions"></a><a name="Topic48"></a><div class="CTopic TGroup LJava">
+ <div class="CTitle">Functions</div>
+</div>
+
+<a name="getAllVariants"></a><a name="Topic49"></a><div class="CTopic TFunction LJava">
+ <div class="CTitle">getAllVariants</div>
+ <div id="NDPrototype49" class="NDPrototype NoParameterForm"><span class="SHKeyword">public</span> List&lt;<a href="../../index.html#JavaClass:VariantDto" target="_top" onmouseover="NDContentPage.OnLinkMouseOver(event,21);" onmouseout="NDContentPage.OnLinkMouseOut(event);" >VariantDto</a>&gt; getAllVariants()</div>
+ <div class="CBody"><p>Zwraca wszystkie warianty</p></div>
+</div>
+
+<a name="getVariantById"></a><a name="Topic50"></a><div class="CTopic TFunction LJava">
+ <div class="CTitle">getVariantById</div>
+ <div id="NDPrototype50" class="NDPrototype WideForm CStyle"><table><tr><td class="PBeforeParameters"><span class="SHKeyword">public</span> <a href="../../index.html#JavaClass:VariantDto" target="_top" onmouseover="NDContentPage.OnLinkMouseOver(event,21);" onmouseout="NDContentPage.OnLinkMouseOut(event);" >VariantDto</a> getVariantById(</td><td class="PParametersParentCell"><table class="PParameters"><tr><td class="PType first">String&nbsp;</td><td class="PName last">id</td></tr></table></td><td class="PAfterParameters">) <span class="SHKeyword">throws</span> VariantNotFound</td></tr></table></div>
+ <div class="CBody"><p>Zwraca wariant po ID</p></div>
+</div>
+
+<a name="deleteVariantById"></a><a name="Topic51"></a><div class="CTopic TFunction LJava">
+ <div class="CTitle">deleteVariantById</div>
+ <div id="NDPrototype51" class="NDPrototype WideForm CStyle"><table><tr><td class="PBeforeParameters"><span class="SHKeyword">public</span> <a href="../../index.html#JavaClass:VariantDto" target="_top" onmouseover="NDContentPage.OnLinkMouseOver(event,21);" onmouseout="NDContentPage.OnLinkMouseOut(event);" >VariantDto</a> deleteVariantById(</td><td class="PParametersParentCell"><table class="PParameters"><tr><td class="PType first">String&nbsp;</td><td class="PName last">id</td></tr></table></td><td class="PAfterParameters">) <span class="SHKeyword">throws</span> VariantNotFound</td></tr></table></div>
+ <div class="CBody"><p>Usuwa wariant po ID</p></div>
+</div>
+
+<a name="createVariant"></a><a name="Topic52"></a><div class="CTopic TFunction LJava">
+ <div class="CTitle">createVariant</div>
+ <div id="NDPrototype52" class="NDPrototype WideForm CStyle"><table><tr><td class="PBeforeParameters"><span class="SHKeyword">public</span> <a href="../../index.html#JavaClass:VariantDto" target="_top" onmouseover="NDContentPage.OnLinkMouseOver(event,21);" onmouseout="NDContentPage.OnLinkMouseOut(event);" >VariantDto</a> createVariant(</td><td class="PParametersParentCell"><table class="PParameters"><tr><td class="PType first"><a href="../../index.html#JavaClass:CreateUpdateVariantDto" target="_top" onmouseover="NDContentPage.OnLinkMouseOver(event,25);" onmouseout="NDContentPage.OnLinkMouseOut(event);" >CreateUpdateVariantDto</a>&nbsp;</td><td class="PName last">dto</td></tr></table></td><td class="PAfterParameters">) <span class="SHKeyword">throws</span> VariantDataInvalid</td></tr></table></div>
+ <div class="CBody"><p>Tworzy wariant</p></div>
+</div>
+
+<a name="updateVariant"></a><a name="Topic53"></a><div class="CTopic TFunction LJava">
+ <div class="CTitle">updateVariant</div>
+ <div id="NDPrototype53" class="NDPrototype WideForm CStyle"><table><tr><td class="PBeforeParameters"><span class="SHKeyword">public</span> <a href="../../index.html#JavaClass:VariantDto" target="_top" onmouseover="NDContentPage.OnLinkMouseOver(event,21);" onmouseout="NDContentPage.OnLinkMouseOut(event);" >VariantDto</a> updateVariant(</td><td class="PParametersParentCell"><table class="PParameters"><tr><td class="PType first"><a href="../../index.html#JavaClass:CreateUpdateVariantDto" target="_top" onmouseover="NDContentPage.OnLinkMouseOver(event,25);" onmouseout="NDContentPage.OnLinkMouseOut(event);" >CreateUpdateVariantDto</a>&nbsp;</td><td class="PName last">dto,</td></tr><tr><td class="PType first">String&nbsp;</td><td class="PName last">id</td></tr></table></td><td class="PAfterParameters">) <span class="SHKeyword">throws</span> VariantNotFound</td></tr></table></div>
+ <div class="CBody"><p>Aktualizuje wariant</p></div>
+</div>
+
+<a name="incrementVariant"></a><a name="Topic54"></a><div class="CTopic TFunction LJava last">
+ <div class="CTitle">incrementVariant</div>
+ <div id="NDPrototype54" class="NDPrototype WideForm CStyle"><table><tr><td class="PBeforeParameters"><span class="SHKeyword">public</span> <a href="../../index.html#JavaClass:VariantDto" target="_top" onmouseover="NDContentPage.OnLinkMouseOver(event,21);" onmouseout="NDContentPage.OnLinkMouseOut(event);" >VariantDto</a> incrementVariant(</td><td class="PParametersParentCell"><table class="PParameters"><tr><td class="PType first">String&nbsp;</td><td class="PName last">id</td></tr></table></td><td class="PAfterParameters">) <span class="SHKeyword">throws</span> VariantNotFound</td></tr></table></div>
+ <div class="CBody"><p>Zwiększa wartość variantu</p></div>
 </div>
 
 </body></html>

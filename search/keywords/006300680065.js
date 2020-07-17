@@ -1,0 +1,1 @@
+NDSearch.OnPrefixDataLoaded("che",["Function"],[["check",,[["SurveyViewController",,,,0,"File:vote/view/SurveyViewController.java:SurveyViewController.check","JavaClass:SurveyViewController:check"]]],["checkIfVoted",,[["SurveyViewController",,,,0,"File:vote/view/SurveyViewController.java:SurveyViewController.checkIfVoted","JavaClass:SurveyViewController:checkIfVoted"]]]]);

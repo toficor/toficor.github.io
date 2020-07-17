@@ -1,0 +1,1 @@
+NDSummary.OnToolTipsLoaded("File:vote/config/MyConfig.java",{3:"<div class=\"NDToolTip TFunction LJava\"><div class=\"TTSummary\">Koduję hasło użytkownika</div></div>"});

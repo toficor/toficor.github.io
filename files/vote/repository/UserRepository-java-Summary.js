@@ -1,1 +1,1 @@
-NDFramePage.OnPageTitleLoaded("File:vote/repository/UserRepository.java","UserRepository.java");NDSummary.OnSummaryLoaded("File:vote/repository/UserRepository.java",[["Java","Java"]],[["Classes","Class"]],[[7,0,0,"Repozytorium użytkownika","Repozytorium_użytkownika"]]);
+NDFramePage.OnPageTitleLoaded("File:vote/repository/UserRepository.java","UserRepository.java");NDSummary.OnSummaryLoaded("File:vote/repository/UserRepository.java",[["Java","Java"]],[["Classes","Class"]],[[16,0,0,"Repozytorium użytkownika","Repozytorium_użytkownika"]]);

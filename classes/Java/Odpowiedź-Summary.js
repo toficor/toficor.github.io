@@ -1,0 +1,1 @@
+NDFramePage.OnPageTitleLoaded("JavaClass:Odpowiedź","Odpowiedź");NDSummary.OnSummaryLoaded("JavaClass:Odpowiedź",[["Java","Java"]],[["Classes","Class"]],[[14,0,0,"Odpowiedź"]]);

@@ -1,1 +1,1 @@
-NDFramePage.OnPageTitleLoaded("JavaClass:UserDataInvalid","UserDataInvalid");NDSummary.OnSummaryLoaded("JavaClass:UserDataInvalid",[["Java","Java"]],[["Classes","Class"]],[[25,0,0,"UserDataInvalid"]]);
+NDFramePage.OnPageTitleLoaded("JavaClass:UserDataInvalid","UserDataInvalid");NDSummary.OnSummaryLoaded("JavaClass:UserDataInvalid",[["Java","Java"]],[["Classes","Class"]],[[32,0,0,"UserDataInvalid"]]);

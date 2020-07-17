@@ -1,0 +1,1 @@
+NDSearch.OnPrefixDataLoaded("upa",["Function"],[["upadateQuestion",,[["QuestionService",,,,0,"File:vote/service/QuestionService.java:QuestionService.upadateQuestion","JavaClass:QuestionService:upadateQuestion"]]]]);

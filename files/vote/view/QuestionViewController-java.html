@@ -8,10 +8,49 @@
 
 <body onload="NDLoader.OnLoad('Content');" class="NDPage NDContentPage">
 
-<a name="QuestionViewController"></a><a name="Topic44"></a><div class="CTopic TClass LJava first">
+<a name="QuestionViewController"></a><a name="Topic98"></a><div class="CTopic TClass LJava first">
  <div class="CTitle">QuestionViewController</div>
- <div class="NDClassPrototype" id="NDClassPrototype44"><div class="CPEntry TClass Current"><div class="CPModifiers">@Controller <span class="SHKeyword">public</span></div><div class="CPName">QuestionViewController</div></div></div>
+ <div class="NDClassPrototype" id="NDClassPrototype98"><div class="CPEntry TClass Current"><div class="CPModifiers">@Controller <span class="SHKeyword">public</span></div><div class="CPName">QuestionViewController</div></div></div>
  <div class="CBody"><p>Reprezentuje kontroler pytania.</p></div>
+</div>
+
+<a name="QuestionViewController.Functions"></a><a name="Topic99"></a><div class="CTopic TGroup LJava">
+ <div class="CTitle">Functions</div>
+</div>
+
+<a name="QuestionViewController.displayQuestionTable"></a><a name="Topic100"></a><div class="CTopic TFunction LJava">
+ <div class="CTitle">displayQuestionTable</div>
+ <div id="NDPrototype100" class="NDPrototype WideForm CStyle"><table><tr><td class="PBeforeParameters">@GetMapping(</td><td class="PParametersParentCell"><table class="PParameters"><tr><td class="PNamePrefix first"><span class="SHString">&quot;/</span></td><td class="PName last">questions&quot;</td></tr></table></td><td class="PAfterParameters">) <span class="SHKeyword">public</span> ModelAndView displayQuestionTable()</td></tr></table></div>
+ <div class="CBody"><p>Wyświetla pytania</p></div>
+</div>
+
+<a name="QuestionViewController.displayCreateQuestionForm"></a><a name="Topic101"></a><div class="CTopic TFunction LJava">
+ <div class="CTitle">displayCreateQuestionForm</div>
+ <div id="NDPrototype101" class="NDPrototype WideForm CStyle"><table><tr><td class="PBeforeParameters">@GetMapping(</td><td class="PParametersParentCell"><table class="PParameters"><tr><td class="PNamePrefix first"><span class="SHString">&quot;/</span></td><td class="PName last">create-question&quot;</td></tr></table></td><td class="PAfterParameters">) <span class="SHKeyword">public</span> String displayCreateQuestionForm(Model model)</td></tr></table></div>
+ <div class="CBody"><p>Wyświetla formularz do tworzenia pytań</p></div>
+</div>
+
+<a name="QuestionViewController.createQuestion"></a><a name="Topic102"></a><div class="CTopic TFunction LJava">
+ <div class="CTitle">createQuestion</div>
+ <div id="NDPrototype102" class="NDPrototype WideForm CStyle"><table><tr><td class="PBeforeParameters">@PostMapping(</td><td class="PParametersParentCell"><table class="PParameters"><tr><td class="PNamePrefix first"><span class="SHString">&quot;/</span></td><td class="PName last">create-question&quot;</td></tr></table></td><td class="PAfterParameters">) <span class="SHKeyword">public</span> String createQuestion(@Valid @ModelAttribute(name = <span class="SHString">&quot;dto&quot;</span>) CreateUpdateQuestionDto dto, BindingResult bindingResult, Model model)</td></tr></table></div>
+ <div class="CBody"><p>Tworzy pytanie</p></div>
+</div>
+
+<a name="QuestionViewController.createQuestion(2)"></a><a name="Topic103"></a><div class="CTopic TFunction LJava">
+ <div class="CTitle">createQuestion</div>
+ <div class="CBody"><p>Wyświetla pytania i warianty</p></div>
+</div>
+
+<a name="QuestionViewController.displayAddQuestionForm"></a><a name="Topic104"></a><div class="CTopic TFunction LJava">
+ <div class="CTitle">displayAddQuestionForm</div>
+ <div id="NDPrototype104" class="NDPrototype WideForm CStyle"><table><tr><td class="PBeforeParameters">@GetMapping(</td><td class="PParametersParentCell"><table class="PParameters"><tr><td class="PNamePrefix first"><span class="SHString">&quot;/</span></td><td class="PName last">add-question/{id}&quot;</td></tr></table></td><td class="PAfterParameters">) <span class="SHKeyword">public</span> ModelAndView displayAddQuestionForm(@PathVariable String id, @ModelAttribute CreateUpdateQuestionDto dto)</td></tr></table></div>
+ <div class="CBody"><p>Wyświetla formularz dodawania pytania</p></div>
+</div>
+
+<a name="QuestionViewController.addQuestion"></a><a name="Topic105"></a><div class="CTopic TFunction LJava last">
+ <div class="CTitle">addQuestion</div>
+ <div id="NDPrototype105" class="NDPrototype WideForm CStyle"><table><tr><td class="PBeforeParameters">@PostMapping(</td><td class="PParametersParentCell"><table class="PParameters"><tr><td class="PNamePrefix first"><span class="SHString">&quot;/</span></td><td class="PName last">add-question/{id}&quot;</td></tr></table></td><td class="PAfterParameters">) <span class="SHKeyword">public</span> String addQuestion(@ModelAttribute CreateUpdateQuestionDto dto, @PathVariable String id)</td></tr></table></div>
+ <div class="CBody"><p>Dodaje pytanie</p></div>
 </div>
 
 </body></html>

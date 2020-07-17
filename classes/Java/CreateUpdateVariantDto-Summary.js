@@ -1,1 +1,1 @@
-NDFramePage.OnPageTitleLoaded("JavaClass:CreateUpdateVariantDto","CreateUpdateVariantDto");NDSummary.OnSummaryLoaded("JavaClass:CreateUpdateVariantDto",[["Java","Java"]],[["Classes","Class"]],[[18,0,0,"CreateUpdateVariantDto"]]);
+NDFramePage.OnPageTitleLoaded("JavaClass:CreateUpdateVariantDto","CreateUpdateVariantDto");NDSummary.OnSummaryLoaded("JavaClass:CreateUpdateVariantDto",[["Java","Java"]],[["Classes","Class"]],[[25,0,0,"CreateUpdateVariantDto"]]);

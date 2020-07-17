@@ -1,0 +1,1 @@
+NDSearch.OnPrefixDataLoaded("inc",["Function"],[["incrementVariant",,[["VariantService",,,,0,"File:vote/service/VariantService.java:VariantService.incrementVariant","JavaClass:VariantService:incrementVariant"],["VariantViewController",,,,0,"File:vote/view/VariantViewController.java:VariantViewController.incrementVariant","JavaClass:VariantViewController:incrementVariant"]]]]);

@@ -1,0 +1,1 @@
+NDSearch.OnPrefixDataLoaded("com",["Function"],[["completeSurvey",,[["SurveyViewController",,,,0,"File:vote/view/SurveyViewController.java:SurveyViewController.completeSurvey","JavaClass:SurveyViewController:completeSurvey"]]]]);

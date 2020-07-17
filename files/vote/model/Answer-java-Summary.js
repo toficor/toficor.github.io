@@ -1,0 +1,1 @@
+NDFramePage.OnPageTitleLoaded("File:vote/model/Answer.java","Answer.java");NDSummary.OnSummaryLoaded("File:vote/model/Answer.java",[["Java","Java"]],[["Classes","Class"]],[[14,0,0,"Odpowiedź","Odpowiedź"]]);

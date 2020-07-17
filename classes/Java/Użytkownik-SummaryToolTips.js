@@ -1,1 +1,1 @@
-NDSummary.OnToolTipsLoaded("JavaClass:Użytkownik",{3:"<div class=\"NDToolTip TClass LJava\"><div class=\"TTSummary\">Reprezentuje użytkowników</div></div>"});
+NDSummary.OnToolTipsLoaded("JavaClass:Użytkownik",{8:"<div class=\"NDToolTip TClass LJava\"><div class=\"TTSummary\">Reprezentuje użytkowników</div></div>"});

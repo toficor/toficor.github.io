@@ -1,1 +1,1 @@
-NDFramePage.OnPageTitleLoaded("JavaClass:VariantDataInvalid","VariantDataInvalid");NDSummary.OnSummaryLoaded("JavaClass:VariantDataInvalid",[["Java","Java"]],[["Classes","Class"]],[[23,0,0,"VariantDataInvalid"]]);
+NDFramePage.OnPageTitleLoaded("JavaClass:VariantDataInvalid","VariantDataInvalid");NDSummary.OnSummaryLoaded("JavaClass:VariantDataInvalid",[["Java","Java"]],[["Classes","Class"]],[[30,0,0,"VariantDataInvalid"]]);

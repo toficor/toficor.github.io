@@ -1,1 +1,1 @@
-NDSummary.OnToolTipsLoaded("JavaClass:Pytanie",{4:"<div class=\"NDToolTip TClass LJava\"><div class=\"TTSummary\">Reprezentuje pytania w ankiecie Ankieta może posiadać wiele pytań</div></div>"});
+NDSummary.OnToolTipsLoaded("JavaClass:Pytanie",{17:"<div class=\"NDToolTip TClass LJava\"><div class=\"TTSummary\">Reprezentuje pytania w ankiecie Ankieta może posiadać wiele pytań</div></div>"});

@@ -8,10 +8,92 @@
 
 <body onload="NDLoader.OnLoad('Content');" class="NDPage NDContentPage">
 
-<a name="Topic42"></a><div class="CTopic TClass LJava first">
+<a name="Topic106"></a><div class="CTopic TClass LJava first">
  <div class="CTitle">SurveyViewController</div>
- <div class="NDClassPrototype" id="NDClassPrototype42"><div class="CPEntry TClass Current"><div class="CPModifiers">@Controller <span class="SHKeyword">public</span></div><div class="CPName">SurveyViewController</div></div></div>
+ <div class="NDClassPrototype" id="NDClassPrototype106"><div class="CPEntry TClass Current"><div class="CPModifiers">@Controller <span class="SHKeyword">public</span></div><div class="CPName">SurveyViewController</div></div></div>
  <div class="CBody"><p>Reprezentuje kontroler ankiety.</p></div>
+</div>
+
+<a name="Functions"></a><a name="Topic107"></a><div class="CTopic TGroup LJava">
+ <div class="CTitle">Functions</div>
+</div>
+
+<a name="displaySurveyTable"></a><a name="Topic108"></a><div class="CTopic TFunction LJava">
+ <div class="CTitle">displaySurveyTable</div>
+ <div id="NDPrototype108" class="NDPrototype WideForm CStyle"><table><tr><td class="PBeforeParameters">@GetMapping(</td><td class="PParametersParentCell"><table class="PParameters"><tr><td class="PNamePrefix first"><span class="SHString">&quot;/</span></td><td class="PName last">surveys&quot;</td></tr></table></td><td class="PAfterParameters">) <span class="SHKeyword">public</span> ModelAndView displaySurveyTable()</td></tr></table></div>
+ <div class="CBody"><p>Wyświetla ankiety</p></div>
+</div>
+
+<a name="mySurveys"></a><a name="Topic109"></a><div class="CTopic TFunction LJava">
+ <div class="CTitle">mySurveys</div>
+ <div id="NDPrototype109" class="NDPrototype WideForm CStyle"><table><tr><td class="PBeforeParameters">@GetMapping(</td><td class="PParametersParentCell"><table class="PParameters"><tr><td class="PNamePrefix first"><span class="SHString">&quot;/</span></td><td class="PName last">surveys/my&quot;</td></tr></table></td><td class="PAfterParameters">) <span class="SHKeyword">public</span> ModelAndView mySurveys(Model model)</td></tr></table></div>
+ <div class="CBody"><p>Wyświetla ankiety użytkownika</p></div>
+</div>
+
+<a name="displayCreateSurveyForm"></a><a name="Topic110"></a><div class="CTopic TFunction LJava">
+ <div class="CTitle">displayCreateSurveyForm</div>
+ <div id="NDPrototype110" class="NDPrototype WideForm CStyle"><table><tr><td class="PBeforeParameters">@GetMapping(</td><td class="PParametersParentCell"><table class="PParameters"><tr><td class="PNamePrefix first"><span class="SHString">&quot;/</span></td><td class="PName last">create-survey&quot;</td></tr></table></td><td class="PAfterParameters">) <span class="SHKeyword">public</span> String displayCreateSurveyForm(Model model)</td></tr></table></div>
+ <div class="CBody"><p>Wyświetla formularz do tworzenia ankiety</p></div>
+</div>
+
+<a name="createSurvey"></a><a name="Topic111"></a><div class="CTopic TFunction LJava">
+ <div class="CTitle">createSurvey</div>
+ <div id="NDPrototype111" class="NDPrototype WideForm CStyle"><table><tr><td class="PBeforeParameters">@PostMapping(</td><td class="PParametersParentCell"><table class="PParameters"><tr><td class="PNamePrefix first"><span class="SHString">&quot;/</span></td><td class="PName last">create-survey&quot;</td></tr></table></td><td class="PAfterParameters">) <span class="SHKeyword">public</span> String createSurvey(@Valid @ModelAttribute(name = <span class="SHString">&quot;dto&quot;</span>) CreateUpdateSurveyDto dto, BindingResult bindingResult, Model model)</td></tr></table></div>
+ <div class="CBody"><p>Zapisuje wypełniony formularz stworzonej ankiety</p></div>
+</div>
+
+<a name="showSurvey"></a><a name="Topic112"></a><div class="CTopic TFunction LJava">
+ <div class="CTitle">showSurvey</div>
+ <div id="NDPrototype112" class="NDPrototype WideForm CStyle"><table><tr><td class="PBeforeParameters">@GetMapping(</td><td class="PParametersParentCell"><table class="PParameters"><tr><td class="PNamePrefix first"><span class="SHString">&quot;/</span></td><td class="PName last">complete-survey/{id}&quot;</td></tr></table></td><td class="PAfterParameters">) <span class="SHKeyword">public</span> ModelAndView showSurvey(@PathVariable String id)</td></tr></table></div>
+ <div class="CBody"><p>Wyświetla formularz do wypełnienia ankiety</p></div>
+</div>
+
+<a name="completeSurvey"></a><a name="Topic113"></a><div class="CTopic TFunction LJava">
+ <div class="CTitle">completeSurvey</div>
+ <div id="NDPrototype113" class="NDPrototype WideForm CStyle"><table><tr><td class="PBeforeParameters">@PostMapping(</td><td class="PParametersParentCell"><table class="PParameters"><tr><td class="PNamePrefix first"><span class="SHString">&quot;/</span></td><td class="PName last">complete-survey/{id}&quot;</td></tr></table></td><td class="PAfterParameters">) <span class="SHKeyword">public</span> String completeSurvey(@RequestBody MultiValueMap&lt;String, String&gt; formData, @PathVariable String id, RedirectAttributes redirectAttributes)</td></tr></table></div>
+ <div class="CBody"><p>Zapisuje wypełniony formularz stworzonej ankiety</p></div>
+</div>
+
+<a name="completeSurvey(2)"></a><a name="Topic114"></a><div class="CTopic TFunction LJava">
+ <div class="CTitle">completeSurvey</div>
+ <div id="NDPrototype114" class="NDPrototype WideForm CStyle"><table><tr><td class="PBeforeParameters">@GetMapping(</td><td class="PParametersParentCell"><table class="PParameters"><tr><td class="PNamePrefix first"><span class="SHString">&quot;/</span></td><td class="PName last">surveys/complete&quot;</td></tr></table></td><td class="PAfterParameters">) <span class="SHKeyword">public</span> ModelAndView completeSurvey(@ModelAttribute(<span class="SHString">&quot;hash&quot;</span>) String hash)</td></tr></table></div>
+ <div class="CBody"><p>Wyświetla hasz po wypełnieniu ankiety</p></div>
+</div>
+
+<a name="openSurveys"></a><a name="Topic115"></a><div class="CTopic TFunction LJava">
+ <div class="CTitle">openSurveys</div>
+ <div id="NDPrototype115" class="NDPrototype WideForm CStyle"><table><tr><td class="PBeforeParameters">@GetMapping(</td><td class="PParametersParentCell"><table class="PParameters"><tr><td class="PNamePrefix first"><span class="SHString">&quot;/</span></td><td class="PName last">surveys/my/{id}&quot;</td></tr></table></td><td class="PAfterParameters">) <span class="SHKeyword">public</span> String openSurveys(@PathVariable String id, Model model)</td></tr></table></div>
+ <div class="CBody"><p>Wyświetla ankiety wypełnione przez uzytkownika</p></div>
+</div>
+
+<a name="openSurvey"></a><a name="Topic116"></a><div class="CTopic TFunction LJava">
+ <div class="CTitle">openSurvey</div>
+ <div id="NDPrototype116" class="NDPrototype WideForm CStyle"><table><tr><td class="PBeforeParameters">@PostMapping(</td><td class="PParametersParentCell"><table class="PParameters"><tr><td class="PNamePrefix first"><span class="SHString">&quot;/</span></td><td class="PName last">surveys/my/{id}&quot;</td></tr></table></td><td class="PAfterParameters">) <span class="SHKeyword">public</span> String openSurvey(@PathVariable String id, @Valid @ModelAttribute(name = <span class="SHString">&quot;hash&quot;</span>) SurveyOpenDto dto, RedirectAttributes redirectAttributes)</td></tr></table></div>
+ <div class="CBody"><p>Znajduje wyniki ankiety za pomocą hasza wprowadzonego przez użytkownika i przekazuje je do /surveys/my/{id}/show</p></div>
+</div>
+
+<a name="mySurvey"></a><a name="Topic117"></a><div class="CTopic TFunction LJava">
+ <div class="CTitle">mySurvey</div>
+ <div id="NDPrototype117" class="NDPrototype WideForm CStyle"><table><tr><td class="PBeforeParameters">@GetMapping(</td><td class="PParametersParentCell"><table class="PParameters"><tr><td class="PNamePrefix first"><span class="SHString">&quot;/</span></td><td class="PName last">surveys/my/{id}/show&quot;</td></tr></table></td><td class="PAfterParameters">) <span class="SHKeyword">public</span> ModelAndView mySurvey(@PathVariable String id, @ModelAttribute(name = <span class="SHString">&quot;answers&quot;</span>) Set&lt;Answer&gt; answers) <span class="SHKeyword">throws</span> SurveyNotFound</td></tr></table></div>
+ <div class="CBody"><p>Wyświela wyniki ankiety wypełnione przez uzytkownika</p></div>
+</div>
+
+<a name="showReport"></a><a name="Topic118"></a><div class="CTopic TFunction LJava">
+ <div class="CTitle">showReport</div>
+ <div id="NDPrototype118" class="NDPrototype WideForm CStyle"><table><tr><td class="PBeforeParameters">@GetMapping(</td><td class="PParametersParentCell"><table class="PParameters"><tr><td class="PNamePrefix first"><span class="SHString">&quot;/</span></td><td class="PName last">show-report/{id}&quot;</td></tr></table></td><td class="PAfterParameters">) <span class="SHKeyword">public</span> ModelAndView showReport(@PathVariable String id)</td></tr></table></div>
+ <div class="CBody"><p>Wyświela wyniki ankiety wypełnione przez uzytkowników</p></div>
+</div>
+
+<a name="checkIfVoted"></a><a name="Topic119"></a><div class="CTopic TFunction LJava">
+ <div class="CTitle">checkIfVoted</div>
+ <div id="NDPrototype119" class="NDPrototype WideForm CStyle"><table><tr><td class="PBeforeParameters">@GetMapping(</td><td class="PParametersParentCell"><table class="PParameters"><tr><td class="PNamePrefix first"><span class="SHString">&quot;/</span></td><td class="PName last">check-if-voted/{id}/&quot;</td></tr></table></td><td class="PAfterParameters">) <span class="SHKeyword">public</span> String checkIfVoted(@PathVariable String id)</td></tr></table></div>
+ <div class="CBody"><p>Sprawdza czy użytkownik zagłosował</p></div>
+</div>
+
+<a name="check"></a><a name="Topic120"></a><div class="CTopic TFunction LJava last">
+ <div class="CTitle">check</div>
+ <div id="NDPrototype120" class="NDPrototype WideForm CStyle"><table><tr><td class="PBeforeParameters">@PostMapping (</td><td class="PParametersParentCell"><table class="PParameters"><tr><td class="PNamePrefix first"><span class="SHString">&quot;/</span></td><td class="PName last">check-if-voted/{id}/&quot;</td></tr></table></td><td class="PAfterParameters">) <span class="SHKeyword">public</span> String check(@PathVariable String id)</td></tr></table></div>
+ <div class="CBody"><p>Sprawdza czy użytkownik zagłosował</p></div>
 </div>
 
 </body></html>

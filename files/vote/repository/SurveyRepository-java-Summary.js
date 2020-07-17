@@ -1,1 +1,1 @@
-NDFramePage.OnPageTitleLoaded("File:vote/repository/SurveyRepository.java","SurveyRepository.java");NDSummary.OnSummaryLoaded("File:vote/repository/SurveyRepository.java",[["Java","Java"]],[["Classes","Class"]],[[9,0,0,"Repozytorium ankiety","Repozytorium_ankiety"]]);
+NDFramePage.OnPageTitleLoaded("File:vote/repository/SurveyRepository.java","SurveyRepository.java");NDSummary.OnSummaryLoaded("File:vote/repository/SurveyRepository.java",[["Java","Java"]],[["Classes","Class"]],[[18,0,0,"Repozytorium ankiety","Repozytorium_ankiety"]]);

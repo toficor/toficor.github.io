@@ -1,0 +1,1 @@
+NDSummary.OnToolTipsLoaded("File:vote/model/AnswerId.java",{13:"<div class=\"NDToolTip TClass LJava\"><div class=\"TTSummary\">Reprezentuje odpowiedź w ankiencie Posiada informacje na temat ID question, usera, oraz survey.</div></div>"});

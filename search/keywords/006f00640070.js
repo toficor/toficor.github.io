@@ -1,0 +1,1 @@
+NDSearch.OnPrefixDataLoaded("odp",["Class"],[["Odpowiedź",,[[,,,,0,"File:vote/model/Answer.java:Odpowiedź","JavaClass:Odpowiedź"]]],["OdpowiedźID",,[[,,,,0,"File:vote/model/AnswerId.java:OdpowiedźID","JavaClass:OdpowiedźID"]]]]);

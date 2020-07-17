@@ -1,1 +1,1 @@
-NDSearch.OnPrefixDataLoaded("pyt",["Class"],[["pytania",,[[,"Repozytorium pytania",,,0,"File:vote/repository/QuestionRepository.java:Repozytorium_pytania","JavaClass:Repozytorium_pytania"]]],["Pytanie",,[[,,,,0,"File:vote/model/Question.java:Pytanie","JavaClass:Pytanie"]]]]);
+NDSearch.OnPrefixDataLoaded("pyt",["Class"],[["pytania",,[[,"Repozytorium pytania",,,0,"File:vote/repository/AnswerRepository.java:Repozytorium_pytania","JavaClass:Repozytorium_pytania"]]],["Pytanie",,[[,,,,0,"File:vote/model/Question.java:Pytanie","JavaClass:Pytanie"]]]]);

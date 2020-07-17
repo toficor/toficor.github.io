@@ -1,1 +1,1 @@
-NDFramePage.OnPageTitleLoaded("JavaClass:VariantNotFound","VariantNotFound");NDSummary.OnSummaryLoaded("JavaClass:VariantNotFound",[["Java","Java"]],[["Classes","Class"]],[[21,0,0,"VariantNotFound"]]);
+NDFramePage.OnPageTitleLoaded("JavaClass:VariantNotFound","VariantNotFound");NDSummary.OnSummaryLoaded("JavaClass:VariantNotFound",[["Java","Java"]],[["Classes","Class"]],[[28,0,0,"VariantNotFound"]]);

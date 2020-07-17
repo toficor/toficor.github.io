@@ -1,0 +1,1 @@
+NDSearch.OnPrefixDataLoaded("mys",["Function"],[["mySurvey",,[["SurveyViewController",,,,0,"File:vote/view/SurveyViewController.java:SurveyViewController.mySurvey","JavaClass:SurveyViewController:mySurvey"]]],["mySurveys",,[["SurveyViewController",,,,0,"File:vote/view/SurveyViewController.java:SurveyViewController.mySurveys","JavaClass:SurveyViewController:mySurveys"]]]]);

@@ -1,1 +1,1 @@
-NDFramePage.OnPageTitleLoaded("JavaClass:CreateUserDto","CreateUserDto");NDSummary.OnSummaryLoaded("JavaClass:CreateUserDto",[["Java","Java"]],[["Classes","Class"]],[[19,0,0,"CreateUserDto"]]);
+NDFramePage.OnPageTitleLoaded("JavaClass:CreateUserDto","CreateUserDto");NDSummary.OnSummaryLoaded("JavaClass:CreateUserDto",[["Java","Java"]],[["Classes","Class"]],[[36,0,0,"CreateUserDto"]]);

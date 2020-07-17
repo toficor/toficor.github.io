@@ -1,0 +1,1 @@
+NDSummary.OnToolTipsLoaded("File:vote/model/Answer.java",{14:"<div class=\"NDToolTip TClass LJava\"><div class=\"TTSummary\">Reprezentuje odpowiedź w ankiecie Ankieta może posiadać wiele odpowiedzi</div></div>"});

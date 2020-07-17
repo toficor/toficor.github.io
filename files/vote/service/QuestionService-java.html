@@ -8,10 +8,54 @@
 
 <body onload="NDLoader.OnLoad('Content');" class="NDPage NDContentPage">
 
-<a name="QuestionService"></a><a name="Topic40"></a><div class="CTopic TClass LJava first">
+<a name="QuestionService"></a><a name="Topic65"></a><div class="CTopic TClass LJava first">
  <div class="CTitle">QuestionService</div>
- <div class="NDClassPrototype" id="NDClassPrototype40"><div class="CPEntry TClass Current"><div class="CPModifiers">@Service <span class="SHKeyword">public</span></div><div class="CPName">QuestionService</div></div></div>
+ <div class="NDClassPrototype" id="NDClassPrototype65"><div class="CPEntry TClass Current"><div class="CPModifiers">@Service <span class="SHKeyword">public</span></div><div class="CPName">QuestionService</div></div></div>
  <div class="CBody"><p>Reprezentuje serwis dla pytania.</p></div>
+</div>
+
+<a name="QuestionService.Functions"></a><a name="Topic66"></a><div class="CTopic TGroup LJava">
+ <div class="CTitle">Functions</div>
+</div>
+
+<a name="QuestionService.getAllQuestions"></a><a name="Topic67"></a><div class="CTopic TFunction LJava">
+ <div class="CTitle">getAllQuestions</div>
+ <div id="NDPrototype67" class="NDPrototype NoParameterForm"><span class="SHKeyword">public</span> List&lt;<a href="../../../index.html#File:vote/service/dto/QuestionDto.java:QuestionDto" target="_top" onmouseover="NDContentPage.OnLinkMouseOver(event,24);" onmouseout="NDContentPage.OnLinkMouseOut(event);" >QuestionDto</a>&gt; getAllQuestions()</div>
+ <div class="CBody"><p>Zwraca wszystkie pytania</p></div>
+</div>
+
+<a name="QuestionService.getQuestionById"></a><a name="Topic68"></a><div class="CTopic TFunction LJava">
+ <div class="CTitle">getQuestionById</div>
+ <div id="NDPrototype68" class="NDPrototype WideForm CStyle"><table><tr><td class="PBeforeParameters"><span class="SHKeyword">public</span> <a href="../../../index.html#File:vote/service/dto/QuestionDto.java:QuestionDto" target="_top" onmouseover="NDContentPage.OnLinkMouseOver(event,24);" onmouseout="NDContentPage.OnLinkMouseOut(event);" >QuestionDto</a> getQuestionById(</td><td class="PParametersParentCell"><table class="PParameters"><tr><td class="PType first">String&nbsp;</td><td class="PName last">id</td></tr></table></td><td class="PAfterParameters">) <span class="SHKeyword">throws</span> QuestionNotFound</td></tr></table></div>
+ <div class="CBody"><p>Zwraca pytanie po ID</p></div>
+</div>
+
+<a name="QuestionService.deleteQuestionById"></a><a name="Topic69"></a><div class="CTopic TFunction LJava">
+ <div class="CTitle">deleteQuestionById</div>
+ <div id="NDPrototype69" class="NDPrototype WideForm CStyle"><table><tr><td class="PBeforeParameters"><span class="SHKeyword">public</span> <a href="../../../index.html#File:vote/service/dto/QuestionDto.java:QuestionDto" target="_top" onmouseover="NDContentPage.OnLinkMouseOver(event,24);" onmouseout="NDContentPage.OnLinkMouseOut(event);" >QuestionDto</a> deleteQuestionById(</td><td class="PParametersParentCell"><table class="PParameters"><tr><td class="PType first">String&nbsp;</td><td class="PName last">id</td></tr></table></td><td class="PAfterParameters">) <span class="SHKeyword">throws</span> QuestionNotFound</td></tr></table></div>
+ <div class="CBody"><p>Usuwa pytanie po ID</p></div>
+</div>
+
+<a name="QuestionService.createQuestion"></a><a name="Topic70"></a><div class="CTopic TFunction LJava">
+ <div class="CTitle">createQuestion</div>
+ <div id="NDPrototype70" class="NDPrototype WideForm CStyle"><table><tr><td class="PBeforeParameters"><span class="SHKeyword">public</span> <a href="../../../index.html#File:vote/service/dto/QuestionDto.java:QuestionDto" target="_top" onmouseover="NDContentPage.OnLinkMouseOver(event,24);" onmouseout="NDContentPage.OnLinkMouseOut(event);" >QuestionDto</a> createQuestion(</td><td class="PParametersParentCell"><table class="PParameters"><tr><td class="PType first"><a href="../../../index.html#File:vote/service/dto/CreateUpdateQuestionDto.java:CreateUpdateQuestionDto" target="_top" onmouseover="NDContentPage.OnLinkMouseOver(event,27);" onmouseout="NDContentPage.OnLinkMouseOut(event);" >CreateUpdateQuestionDto</a>&nbsp;</td><td class="PName last">dto</td></tr></table></td><td class="PAfterParameters">) <span class="SHKeyword">throws</span> QuestionDataInvalid</td></tr></table></div>
+ <div class="CBody"><p>Tworzy pytanie</p></div>
+</div>
+
+<a name="QuestionService.upadateQuestion"></a><a name="Topic71"></a><div class="CTopic TFunction LJava">
+ <div class="CTitle">upadateQuestion</div>
+ <div id="NDPrototype71" class="NDPrototype WideForm CStyle"><table><tr><td class="PBeforeParameters"><span class="SHKeyword">public</span> <a href="../../../index.html#File:vote/service/dto/QuestionDto.java:QuestionDto" target="_top" onmouseover="NDContentPage.OnLinkMouseOver(event,24);" onmouseout="NDContentPage.OnLinkMouseOut(event);" >QuestionDto</a> upadateQuestion(</td><td class="PParametersParentCell"><table class="PParameters"><tr><td class="PType first"><a href="../../../index.html#File:vote/service/dto/CreateUpdateQuestionDto.java:CreateUpdateQuestionDto" target="_top" onmouseover="NDContentPage.OnLinkMouseOver(event,27);" onmouseout="NDContentPage.OnLinkMouseOut(event);" >CreateUpdateQuestionDto</a>&nbsp;</td><td class="PName last">dto,</td></tr><tr><td class="PType first">String&nbsp;</td><td class="PName last">id</td></tr></table></td><td class="PAfterParameters">) <span class="SHKeyword">throws</span> QuestionNotFound</td></tr></table></div>
+ <div class="CBody"><p>Aktualizuje pytanie</p></div>
+</div>
+
+<a name="QuestionService.upadateQuestion(2)"></a><a name="Topic72"></a><div class="CTopic TFunction LJava">
+ <div class="CTitle">upadateQuestion</div>
+ <div class="CBody"><p>Zwraca wszystkie warianty pytania po ID pytania</p></div>
+</div>
+
+<a name="QuestionService.upadateQuestion(3)"></a><a name="Topic73"></a><div class="CTopic TFunction LJava last">
+ <div class="CTitle">upadateQuestion</div>
+ <div class="CBody"><p>Dodaje wariant do pytania</p></div>
 </div>
 
 </body></html>

@@ -8,10 +8,44 @@
 
 <body onload="NDLoader.OnLoad('Content');" class="NDPage NDContentPage">
 
-<a name="UserService"></a><a name="Topic39"></a><div class="CTopic TClass LJava first">
+<a name="UserService"></a><a name="Topic74"></a><div class="CTopic TClass LJava first">
  <div class="CTitle">UserService</div>
- <div class="NDClassPrototype" id="NDClassPrototype39"><div class="CPEntry TClass Current"><div class="CPModifiers">@Service <span class="SHKeyword">public</span></div><div class="CPName">UserService</div></div></div>
+ <div class="NDClassPrototype" id="NDClassPrototype74"><div class="CPEntry TClass Current"><div class="CPModifiers">@Service <span class="SHKeyword">public</span></div><div class="CPName">UserService</div></div></div>
  <div class="CBody"><p>Reprezentuje serwis uzytkownika.</p></div>
+</div>
+
+<a name="UserService.Functions"></a><a name="Topic75"></a><div class="CTopic TGroup LJava">
+ <div class="CTitle">Functions</div>
+</div>
+
+<a name="UserService.createUser"></a><a name="Topic76"></a><div class="CTopic TFunction LJava">
+ <div class="CTitle">createUser</div>
+ <div id="NDPrototype76" class="NDPrototype WideForm CStyle"><table><tr><td class="PBeforeParameters"><span class="SHKeyword">public</span> <a href="../../../index.html#File:vote/service/dto/UserDto.java:UserDto" target="_top" onmouseover="NDContentPage.OnLinkMouseOver(event,22);" onmouseout="NDContentPage.OnLinkMouseOut(event);" >UserDto</a> createUser(</td><td class="PParametersParentCell"><table class="PParameters"><tr><td class="PType first"><a href="../../../index.html#File:vote/service/dto/CreateUserDto.java:CreateUserDto" target="_top" onmouseover="NDContentPage.OnLinkMouseOver(event,36);" onmouseout="NDContentPage.OnLinkMouseOut(event);" >CreateUserDto</a>&nbsp;</td><td class="PName last">dto</td></tr></table></td><td class="PAfterParameters">) <span class="SHKeyword">throws</span> UserDataInvalid, UserAlreadyExists</td></tr></table></div>
+ <div class="CBody"><p>Tworzy użytkownika</p></div>
+</div>
+
+<a name="UserService.updateUser"></a><a name="Topic77"></a><div class="CTopic TFunction LJava">
+ <div class="CTitle">updateUser</div>
+ <div id="NDPrototype77" class="NDPrototype WideForm CStyle"><table><tr><td class="PBeforeParameters"><span class="SHKeyword">public</span> <a href="../../../index.html#File:vote/service/dto/UserDto.java:UserDto" target="_top" onmouseover="NDContentPage.OnLinkMouseOver(event,22);" onmouseout="NDContentPage.OnLinkMouseOut(event);" >UserDto</a> updateUser(</td><td class="PParametersParentCell"><table class="PParameters"><tr><td class="PType first"><a href="../../../index.html#File:vote/service/dto/UpdateUserDto.java:UpdateUserDto" target="_top" onmouseover="NDContentPage.OnLinkMouseOver(event,29);" onmouseout="NDContentPage.OnLinkMouseOut(event);" >UpdateUserDto</a>&nbsp;</td><td class="PName last">dto,</td></tr><tr><td class="PType first">String&nbsp;</td><td class="PName last">id</td></tr></table></td><td class="PAfterParameters">) <span class="SHKeyword">throws</span> UserNotFound, UserDataInvalid</td></tr></table></div>
+ <div class="CBody"><p>Aktualizuje użytkownika</p></div>
+</div>
+
+<a name="UserService.getAllUsers"></a><a name="Topic78"></a><div class="CTopic TFunction LJava">
+ <div class="CTitle">getAllUsers</div>
+ <div id="NDPrototype78" class="NDPrototype NoParameterForm"><span class="SHKeyword">public</span> List&lt;<a href="../../../index.html#File:vote/service/dto/UserDto.java:UserDto" target="_top" onmouseover="NDContentPage.OnLinkMouseOver(event,22);" onmouseout="NDContentPage.OnLinkMouseOut(event);" >UserDto</a>&gt; getAllUsers()</div>
+ <div class="CBody"><p>Zwraca wszystkich użytkowników</p></div>
+</div>
+
+<a name="UserService.getUserById"></a><a name="Topic79"></a><div class="CTopic TFunction LJava">
+ <div class="CTitle">getUserById</div>
+ <div id="NDPrototype79" class="NDPrototype WideForm CStyle"><table><tr><td class="PBeforeParameters"><span class="SHKeyword">public</span> <a href="../../../index.html#File:vote/service/dto/UserDto.java:UserDto" target="_top" onmouseover="NDContentPage.OnLinkMouseOver(event,22);" onmouseout="NDContentPage.OnLinkMouseOut(event);" >UserDto</a> getUserById(</td><td class="PParametersParentCell"><table class="PParameters"><tr><td class="PType first">String&nbsp;</td><td class="PName last">id</td></tr></table></td><td class="PAfterParameters">) <span class="SHKeyword">throws</span> UserNotFound</td></tr></table></div>
+ <div class="CBody"><p>Zwraca użytkownika po ID</p></div>
+</div>
+
+<a name="UserService.deleteUserById"></a><a name="Topic80"></a><div class="CTopic TFunction LJava last">
+ <div class="CTitle">deleteUserById</div>
+ <div id="NDPrototype80" class="NDPrototype WideForm CStyle"><table><tr><td class="PBeforeParameters"><span class="SHKeyword">public</span> <a href="../../../index.html#File:vote/service/dto/UserDto.java:UserDto" target="_top" onmouseover="NDContentPage.OnLinkMouseOver(event,22);" onmouseout="NDContentPage.OnLinkMouseOut(event);" >UserDto</a> deleteUserById(</td><td class="PParametersParentCell"><table class="PParameters"><tr><td class="PType first">String&nbsp;</td><td class="PName last">id</td></tr></table></td><td class="PAfterParameters">) <span class="SHKeyword">throws</span> UserNotFound</td></tr></table></div>
+ <div class="CBody"><p>Usuwa użytkownika po ID</p></div>
 </div>
 
 </body></html>

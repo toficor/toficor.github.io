@@ -1,0 +1,1 @@
+NDFramePage.OnPageTitleLoaded("File:vote/config/MyConfig.java","MyConfig.java");NDSummary.OnSummaryLoaded("File:vote/config/MyConfig.java",[["Java","Java"]],[["Functions","Function"],["Groups","Group"]],[[2,0,1,"Functions","Functions"],[3,0,0,"loadUserByUsername","loadUserByUsername"]]);

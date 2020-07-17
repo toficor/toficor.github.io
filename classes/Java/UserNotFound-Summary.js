@@ -1,1 +1,1 @@
-NDFramePage.OnPageTitleLoaded("JavaClass:UserNotFound","UserNotFound");NDSummary.OnSummaryLoaded("JavaClass:UserNotFound",[["Java","Java"]],[["Classes","Class"]],[[24,0,0,"UserNotFound"]]);
+NDFramePage.OnPageTitleLoaded("JavaClass:UserNotFound","UserNotFound");NDSummary.OnSummaryLoaded("JavaClass:UserNotFound",[["Java","Java"]],[["Classes","Class"]],[[31,0,0,"UserNotFound"]]);

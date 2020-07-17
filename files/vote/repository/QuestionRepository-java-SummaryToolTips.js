@@ -1,1 +1,1 @@
-NDSummary.OnToolTipsLoaded("File:vote/repository/QuestionRepository.java",{8:"<div class=\"NDToolTip TClass LJava\"><div class=\"TTSummary\">Reprezentuje repozytorium pytań.</div></div>"});
+NDSummary.OnToolTipsLoaded("File:vote/repository/QuestionRepository.java",{19:"<div class=\"NDToolTip TClass LJava\"><div class=\"TTSummary\">Reprezentuje repozytorium pytań.</div></div>"});

@@ -1,1 +1,1 @@
-NDSummary.OnToolTipsLoaded("JavaClass:Repozytorium_użytkownika",{7:"<div class=\"NDToolTip TClass LJava\"><div class=\"TTSummary\">Reprezentuje repozytorium użytkownika.</div></div>"});
+NDSummary.OnToolTipsLoaded("JavaClass:Repozytorium_użytkownika",{16:"<div class=\"NDToolTip TClass LJava\"><div class=\"TTSummary\">Reprezentuje repozytorium użytkownika.</div></div>"});

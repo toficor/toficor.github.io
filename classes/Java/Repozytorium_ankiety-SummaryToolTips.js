@@ -1,1 +1,1 @@
-NDSummary.OnToolTipsLoaded("JavaClass:Repozytorium_ankiety",{9:"<div class=\"NDToolTip TClass LJava\"><div class=\"TTSummary\">Reprezentuje repozytorium ankiet.</div></div>"});
+NDSummary.OnToolTipsLoaded("JavaClass:Repozytorium_ankiety",{18:"<div class=\"NDToolTip TClass LJava\"><div class=\"TTSummary\">Reprezentuje repozytorium ankiet.</div></div>"});

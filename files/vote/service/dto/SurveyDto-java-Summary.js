@@ -1,1 +1,1 @@
-NDFramePage.OnPageTitleLoaded("File:vote/service/dto/SurveyDto.java","SurveyDto.java");NDSummary.OnSummaryLoaded("File:vote/service/dto/SurveyDto.java",[["Java","Java"]],[["Classes","Class"]],[[17,0,0,"SurveyDto","SurveyDto"]]);
+NDFramePage.OnPageTitleLoaded("File:vote/service/dto/SurveyDto.java","SurveyDto.java");NDSummary.OnSummaryLoaded("File:vote/service/dto/SurveyDto.java",[["Java","Java"]],[["Classes","Class"]],[[23,0,0,"SurveyDto","SurveyDto"]]);

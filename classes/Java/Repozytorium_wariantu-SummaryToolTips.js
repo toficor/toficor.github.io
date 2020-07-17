@@ -1,1 +1,1 @@
-NDSummary.OnToolTipsLoaded("JavaClass:Repozytorium_wariantu",{6:"<div class=\"NDToolTip TClass LJava\"><div class=\"TTSummary\">Reprezentuje repozytorium wariantu.</div></div>"});
+NDSummary.OnToolTipsLoaded("JavaClass:Repozytorium_wariantu",{15:"<div class=\"NDToolTip TClass LJava\"><div class=\"TTSummary\">Reprezentuje repozytorium wariantu.</div></div>"});

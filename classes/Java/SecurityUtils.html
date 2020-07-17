@@ -8,10 +8,66 @@
 
 <body onload="NDLoader.OnLoad('Content');" class="NDPage NDContentPage">
 
-<a name="Topic38"></a><div class="CTopic TClass LJava first">
+<a name="Topic43"></a><div class="CTopic TClass LJava first">
  <div class="CTitle">SecurityUtils</div>
- <div class="NDClassPrototype" id="NDClassPrototype38"><div class="CPEntry TClass Current"><div class="CPModifiers">@Service <span class="SHKeyword">public final</span></div><div class="CPName">SecurityUtils</div></div></div>
+ <div class="NDClassPrototype" id="NDClassPrototype43"><div class="CPEntry TClass Current"><div class="CPModifiers">@Service <span class="SHKeyword">public final</span></div><div class="CPName">SecurityUtils</div></div></div>
  <div class="CBody"><p>Reprezentuje serwis zabezpieczeń.</p></div>
+</div>
+
+<a name="Functions"></a><a name="Topic44"></a><div class="CTopic TGroup LJava">
+ <div class="CTitle">Functions</div>
+</div>
+
+<a name="getUserName"></a><a name="Topic45"></a><div class="CTopic TFunction LJava">
+ <div class="CTitle">getUserName</div>
+ <div id="NDPrototype45" class="NDPrototype NoParameterForm"><span class="SHKeyword">public</span> String getUserName()</div>
+ <div class="CBody"><p>Zwraca login użytkownika z sesji</p></div>
+</div>
+
+<a name="createSurvey"></a><a name="Topic57"></a><div class="CTopic TFunction LJava">
+ <div class="CTitle">createSurvey</div>
+ <div id="NDPrototype57" class="NDPrototype WideForm CStyle"><table><tr><td class="PBeforeParameters"><span class="SHKeyword">public</span> <a href="../../index.html#JavaClass:SurveyDto" target="_top" onmouseover="NDContentPage.OnLinkMouseOver(event,23);" onmouseout="NDContentPage.OnLinkMouseOut(event);" >SurveyDto</a> createSurvey(</td><td class="PParametersParentCell"><table class="PParameters"><tr><td class="PType first"><a href="../../index.html#JavaClass:CreateUpdateSurveyDto" target="_top" onmouseover="NDContentPage.OnLinkMouseOver(event,26);" onmouseout="NDContentPage.OnLinkMouseOut(event);" >CreateUpdateSurveyDto</a>&nbsp;</td><td class="PName last">dto</td></tr></table></td><td class="PAfterParameters">) <span class="SHKeyword">throws</span> SurveyDataInvalid</td></tr></table></div>
+ <div class="CBody"><p>Tworzy ankietę</p></div>
+</div>
+
+<a name="updateSurvey"></a><a name="Topic58"></a><div class="CTopic TFunction LJava">
+ <div class="CTitle">updateSurvey</div>
+ <div id="NDPrototype58" class="NDPrototype WideForm CStyle"><table><tr><td class="PBeforeParameters"><span class="SHKeyword">public</span> <a href="../../index.html#JavaClass:SurveyDto" target="_top" onmouseover="NDContentPage.OnLinkMouseOver(event,23);" onmouseout="NDContentPage.OnLinkMouseOut(event);" >SurveyDto</a> updateSurvey(</td><td class="PParametersParentCell"><table class="PParameters"><tr><td class="PType first"><a href="../../index.html#JavaClass:CreateUpdateSurveyDto" target="_top" onmouseover="NDContentPage.OnLinkMouseOver(event,26);" onmouseout="NDContentPage.OnLinkMouseOut(event);" >CreateUpdateSurveyDto</a>&nbsp;</td><td class="PName last">dto,</td></tr><tr><td class="PType first">String&nbsp;</td><td class="PName last">id</td></tr></table></td><td class="PAfterParameters">) <span class="SHKeyword">throws</span> SurveyNotFound</td></tr></table></div>
+ <div class="CBody"><p>Aktualizuje ankietę</p></div>
+</div>
+
+<a name="getAllSurveys"></a><a name="Topic59"></a><div class="CTopic TFunction LJava">
+ <div class="CTitle">getAllSurveys</div>
+ <div id="NDPrototype59" class="NDPrototype NoParameterForm"><span class="SHKeyword">public</span> List&lt;<a href="../../index.html#JavaClass:SurveyDto" target="_top" onmouseover="NDContentPage.OnLinkMouseOver(event,23);" onmouseout="NDContentPage.OnLinkMouseOut(event);" >SurveyDto</a>&gt; getAllSurveys()</div>
+ <div class="CBody"><p>Zwraca wszystkie ankiety</p></div>
+</div>
+
+<a name="getSurveyById"></a><a name="Topic60"></a><div class="CTopic TFunction LJava">
+ <div class="CTitle">getSurveyById</div>
+ <div id="NDPrototype60" class="NDPrototype WideForm CStyle"><table><tr><td class="PBeforeParameters"><span class="SHKeyword">public</span> <a href="../../index.html#JavaClass:SurveyDto" target="_top" onmouseover="NDContentPage.OnLinkMouseOver(event,23);" onmouseout="NDContentPage.OnLinkMouseOut(event);" >SurveyDto</a> getSurveyById(</td><td class="PParametersParentCell"><table class="PParameters"><tr><td class="PType first">String&nbsp;</td><td class="PName last">id</td></tr></table></td><td class="PAfterParameters">) <span class="SHKeyword">throws</span> SurveyNotFound</td></tr></table></div>
+ <div class="CBody"><p>Zwraca ankietę po ID</p></div>
+</div>
+
+<a name="getSurveyById(2)"></a><a name="Topic61"></a><div class="CTopic TFunction LJava">
+ <div class="CTitle">getSurveyById</div>
+ <div class="CBody"><p>Usuwa ankietę po ID</p></div>
+</div>
+
+<a name="getSurveyById(3)"></a><a name="Topic62"></a><div class="CTopic TFunction LJava">
+ <div class="CTitle">getSurveyById</div>
+ <div class="CBody"><p>Zapisuje odpowiedzi wybrane przez użytkownika i zwraca hasz dzięki któremu jesteśmy w stanie sprawdzić nasze wybory w ankiecie.</p></div>
+</div>
+
+<a name="addSurveyQuestion"></a><a name="Topic63"></a><div class="CTopic TFunction LJava">
+ <div class="CTitle">addSurveyQuestion</div>
+ <div id="NDPrototype63" class="NDPrototype WideForm CStyle"><table><tr><td class="PBeforeParameters"><span class="SHKeyword">public</span> <a href="../../index.html#JavaClass:SurveyDto" target="_top" onmouseover="NDContentPage.OnLinkMouseOver(event,23);" onmouseout="NDContentPage.OnLinkMouseOut(event);" >SurveyDto</a> addSurveyQuestion(</td><td class="PParametersParentCell"><table class="PParameters"><tr><td class="PType first"><a href="../../index.html#JavaClass:CreateUpdateQuestionDto" target="_top" onmouseover="NDContentPage.OnLinkMouseOver(event,27);" onmouseout="NDContentPage.OnLinkMouseOut(event);" >CreateUpdateQuestionDto</a>&nbsp;</td><td class="PName last">dto,</td></tr><tr><td class="PType first">String&nbsp;</td><td class="PName last">id</td></tr></table></td><td class="PAfterParameters">) <span class="SHKeyword">throws</span> SurveyNotFound</td></tr></table></div>
+ <div class="CBody"><p>Dodaje pytanie do ankiety</p></div>
+</div>
+
+<a name="getUserSurveys"></a><a name="Topic64"></a><div class="CTopic TFunction LJava last">
+ <div class="CTitle">getUserSurveys</div>
+ <div id="NDPrototype64" class="NDPrototype NoParameterForm"><span class="SHKeyword">public</span> List&lt;Survey&gt; getUserSurveys()</div>
+ <div class="CBody"><p>Zwraca ankiety użytkownika</p></div>
 </div>
 
 </body></html>

@@ -1,1 +1,1 @@
-NDFramePage.OnPageTitleLoaded("JavaClass:CreateUpdateQuestionDto","CreateUpdateQuestionDto");NDSummary.OnSummaryLoaded("JavaClass:CreateUpdateQuestionDto",[["Java","Java"]],[["Classes","Class"]],[[22,0,0,"CreateUpdateQuestionDto"]]);
+NDFramePage.OnPageTitleLoaded("JavaClass:CreateUpdateQuestionDto","CreateUpdateQuestionDto");NDSummary.OnSummaryLoaded("JavaClass:CreateUpdateQuestionDto",[["Java","Java"]],[["Classes","Class"]],[[27,0,0,"CreateUpdateQuestionDto"]]);

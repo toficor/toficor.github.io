@@ -1,1 +1,1 @@
-NDFramePage.OnPageTitleLoaded("JavaClass:Repozytorium_użytkownika","Repozytorium użytkownika");NDSummary.OnSummaryLoaded("JavaClass:Repozytorium_użytkownika",[["Java","Java"]],[["Classes","Class"]],[[7,0,0,"Repozytorium użytkownika"]]);
+NDFramePage.OnPageTitleLoaded("JavaClass:Repozytorium_użytkownika","Repozytorium użytkownika");NDSummary.OnSummaryLoaded("JavaClass:Repozytorium_użytkownika",[["Java","Java"]],[["Classes","Class"]],[[16,0,0,"Repozytorium użytkownika"]]);

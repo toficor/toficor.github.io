@@ -8,10 +8,56 @@
 
 <body onload="NDLoader.OnLoad('Content');" class="NDPage NDContentPage">
 
-<a name="VariantViewController"></a><a name="Topic41"></a><div class="CTopic TClass LJava first">
+<a name="VariantViewController"></a><a name="Topic81"></a><div class="CTopic TClass LJava first">
  <div class="CTitle">VariantViewController</div>
- <div class="NDClassPrototype" id="NDClassPrototype41"><div class="CPEntry TClass Current"><div class="CPModifiers">@Controller <span class="SHKeyword">public</span></div><div class="CPName">VariantViewController</div></div></div>
+ <div class="NDClassPrototype" id="NDClassPrototype81"><div class="CPEntry TClass Current"><div class="CPModifiers">@Controller <span class="SHKeyword">public</span></div><div class="CPName">VariantViewController</div></div></div>
  <div class="CBody"><p>Reprezentuje kontroler wariantu.</p></div>
+</div>
+
+<a name="VariantViewController.Functions"></a><a name="Topic82"></a><div class="CTopic TGroup LJava">
+ <div class="CTitle">Functions</div>
+</div>
+
+<a name="VariantViewController.displayVariantTable"></a><a name="Topic83"></a><div class="CTopic TFunction LJava">
+ <div class="CTitle">displayVariantTable</div>
+ <div id="NDPrototype83" class="NDPrototype WideForm CStyle"><table><tr><td class="PBeforeParameters">@GetMapping(</td><td class="PParametersParentCell"><table class="PParameters"><tr><td class="PNamePrefix first"><span class="SHString">&quot;/</span></td><td class="PName last">variants&quot;</td></tr></table></td><td class="PAfterParameters">) <span class="SHKeyword">public</span> ModelAndView displayVariantTable()</td></tr></table></div>
+ <div class="CBody"><p>Wyświetla warianty</p></div>
+</div>
+
+<a name="VariantViewController.displayCreateVariantForm"></a><a name="Topic84"></a><div class="CTopic TFunction LJava">
+ <div class="CTitle">displayCreateVariantForm</div>
+ <div id="NDPrototype84" class="NDPrototype WideForm CStyle"><table><tr><td class="PBeforeParameters">@GetMapping(</td><td class="PParametersParentCell"><table class="PParameters"><tr><td class="PNamePrefix first"><span class="SHString">&quot;/</span></td><td class="PName last">create-variant&quot;</td></tr></table></td><td class="PAfterParameters">) <span class="SHKeyword">public</span> String displayCreateVariantForm(Model model)</td></tr></table></div>
+ <div class="CBody"><p>Wyświetla formularz do tworzenia wariantów</p></div>
+</div>
+
+<a name="VariantViewController.createVariant"></a><a name="Topic85"></a><div class="CTopic TFunction LJava">
+ <div class="CTitle">createVariant</div>
+ <div id="NDPrototype85" class="NDPrototype WideForm CStyle"><table><tr><td class="PBeforeParameters">@PostMapping(</td><td class="PParametersParentCell"><table class="PParameters"><tr><td class="PNamePrefix first"><span class="SHString">&quot;/</span></td><td class="PName last">create-variant&quot;</td></tr></table></td><td class="PAfterParameters">) <span class="SHKeyword">public</span> String createVariant (@Valid @ModelAttribute(name = <span class="SHString">&quot;dto&quot;</span>) CreateUpdateVariantDto dto, BindingResult bindingResult, Model model)</td></tr></table></div>
+ <div class="CBody"><p>Tworzy wariant</p></div>
+</div>
+
+<a name="VariantViewController.displayAddVariantForm"></a><a name="Topic86"></a><div class="CTopic TFunction LJava">
+ <div class="CTitle">displayAddVariantForm</div>
+ <div id="NDPrototype86" class="NDPrototype WideForm CStyle"><table><tr><td class="PBeforeParameters">@GetMapping(</td><td class="PParametersParentCell"><table class="PParameters"><tr><td class="PNamePrefix first"><span class="SHString">&quot;/</span></td><td class="PName last">add-variant/{id}&quot;</td></tr></table></td><td class="PAfterParameters">) <span class="SHKeyword">public</span> ModelAndView displayAddVariantForm(@PathVariable String id, @ModelAttribute CreateUpdateVariantDto dto)</td></tr></table></div>
+ <div class="CBody"><p>Wyświetla formularz tworzenia wariantu</p></div>
+</div>
+
+<a name="VariantViewController.addVariant"></a><a name="Topic87"></a><div class="CTopic TFunction LJava">
+ <div class="CTitle">addVariant</div>
+ <div id="NDPrototype87" class="NDPrototype WideForm CStyle"><table><tr><td class="PBeforeParameters">@PostMapping(</td><td class="PParametersParentCell"><table class="PParameters"><tr><td class="PNamePrefix first"><span class="SHString">&quot;/</span></td><td class="PName last">add-variant/{id}&quot;</td></tr></table></td><td class="PAfterParameters">) <span class="SHKeyword">public</span> String addVariant(@ModelAttribute CreateUpdateVariantDto dto, @PathVariable String id)</td></tr></table></div>
+ <div class="CBody"><p>Dodaje wariant do pytania</p></div>
+</div>
+
+<a name="VariantViewController.incrementVariant"></a><a name="Topic88"></a><div class="CTopic TFunction LJava">
+ <div class="CTitle">incrementVariant</div>
+ <div id="NDPrototype88" class="NDPrototype WideForm CStyle"><table><tr><td class="PBeforeParameters">@PostMapping(</td><td class="PParametersParentCell"><table class="PParameters"><tr><td class="PNamePrefix first"><span class="SHString">&quot;/</span></td><td class="PName last">variant/increment/{id}/{ids}&quot;</td></tr></table></td><td class="PAfterParameters">) <span class="SHKeyword">public</span> String incrementVariant(@PathVariable String id, @PathVariable String ids)</td></tr></table></div>
+ <div class="CBody"><p>Zwiększa wartość wariantu</p></div>
+</div>
+
+<a name="VariantViewController.displaySurvey"></a><a name="Topic89"></a><div class="CTopic TFunction LJava last">
+ <div class="CTitle">displaySurvey</div>
+ <div id="NDPrototype89" class="NDPrototype WideForm CStyle"><table><tr><td class="PBeforeParameters">@GetMapping(</td><td class="PParametersParentCell"><table class="PParameters"><tr><td class="PNamePrefix first"><span class="SHString">&quot;/</span></td><td class="PName last">variant/increment/{id}/{ids}&quot;</td></tr></table></td><td class="PAfterParameters">) <span class="SHKeyword">public</span> String displaySurvey(@PathVariable String id, @PathVariable String ids)</td></tr></table></div>
+ <div class="CBody"><p>Zwiększa wartość wariantu</p></div>
 </div>
 
 </body></html>

@@ -1,1 +1,1 @@
-NDFramePage.OnPageTitleLoaded("File:vote/service/exception/VariantNotFound.java","VariantNotFound.java");NDSummary.OnSummaryLoaded("File:vote/service/exception/VariantNotFound.java",[["Java","Java"]],[["Classes","Class"]],[[21,0,0,"VariantNotFound","VariantNotFound"]]);
+NDFramePage.OnPageTitleLoaded("File:vote/service/exception/VariantNotFound.java","VariantNotFound.java");NDSummary.OnSummaryLoaded("File:vote/service/exception/VariantNotFound.java",[["Java","Java"]],[["Classes","Class"]],[[28,0,0,"VariantNotFound","VariantNotFound"]]);
